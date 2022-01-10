@@ -1,0 +1,16 @@
+{
+  "name": "clonewom",
+  "version": "1.0.0",
+  "description": "Proyecto clon pagina wom.cl",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch src/scss:build/css",
+    "build": "purgecss --css build/css/styles.css --content index.html --output build/css/cloneWom.css"
+  },
+  "author": "Daniel Portales Beltrán",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "5.1.3",
+    "sass": "1.46.0"
+  }
+}

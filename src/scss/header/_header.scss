@@ -1,0 +1,35 @@
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #1e2125;
+    background-color: #6f1a7e;
+}
+
+.dropdown-menu {
+    border-top: 4px solid #b3a6ba;
+}
+
+.gradiente {
+    background: rgb(111,26,126);
+    background: linear-gradient(90deg, rgba(111,26,126,1) 46%, rgba(45,11,57,1) 85%);
+}
+
+.logo {
+    z-index: 1000;
+    margin-top: 2rem;
+}
+
+.boton {
+    width: 170px;
+    height: 39px;
+    padding: 4px 10px;
+    font-size: 14px;
+}
+
+.navEstilo {
+    height: 55px;
+    padding-bottom: 0;
+}
+
+.hoverBtn:hover {
+color: #1e2125 !important;
+}

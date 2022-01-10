@@ -1,0 +1,29 @@
+$colorPrimario:#381451;
+$colorPrimarioClaro:#76489b;
+$colorSecundario:#e92070;
+$colorHeaderCards:#eff1f3;
+$colorFooter:#2d1540;
+$colorNav:#6f1a7e;
+$blanco:#fff;
+$colorPrecios:#76489b;
+
+//asignar a la paleta de colores de bootstrap
+
+$primary:$colorPrimario;
+$secondary:$colorSecundario;
+$light:$colorNav;
+$success:$blanco;
+$warning:$colorFooter;
+$info:$colorPrecios;
+$danger:$colorHeaderCards;
+
+
+
+//tipografia de bootstrap
+
+
+
+//$headings-font-family: ;
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';

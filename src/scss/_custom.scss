@@ -19,11 +19,18 @@ $danger:$colorHeaderCards;
 
 
 
-//tipografia de bootstrap
+//cambiando tipografia de bootstrap
+@font-face {
+    font-family: CeraProBold;
+    src: url(/fonts/CeraProBold.ttf);
+}
 
+@font-face {
+    font-family: CeraProMedium ;
+    src: url(/fonts/CeraPROMedium.ttf);
+}
 
-
-//$headings-font-family: ;
-
+$font-family-sans-serif:CeraProMedium;
+$font-family-monospace:CeraProBold;
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';

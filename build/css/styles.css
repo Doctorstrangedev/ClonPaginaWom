@@ -11129,20 +11129,24 @@ textarea.form-control-lg {
 }
 
 .gradiente {
-  background: #6f1a7e;
   background: linear-gradient(90deg, #6f1a7e 46%, #2d0b39 85%);
+}
+
+.paddingRight {
+  padding-right: 6rem !important;
 }
 
 .logo {
   z-index: 1000;
   margin-top: 2rem;
+  margin-left: 5rem !important;
 }
 
 .boton {
-  width: 170px;
-  height: 39px;
+  width: 150px;
+  height: 32px;
   padding: 4px 10px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .navEstilo {
@@ -11165,9 +11169,9 @@ html, body {
   padding: 15px 15px 15px 13px;
   border-radius: 50%;
   font-size: 50px;
-  margin-right: 3.3rem !important;
-  margin-left: 85rem !important;
-  margin-bottom: 3.7rem !important;
+  margin-right: 3.7rem !important;
+  margin-left: 75rem !important;
+  margin-bottom: 3rem !important;
   z-index: 10000;
 }
 
@@ -11179,7 +11183,7 @@ html, body {
   font-size: 16px;
   font-weight: 600;
   width: 155px;
-  margin-left: 83rem !important;
+  margin-left: 73rem !important;
   margin-bottom: 1rem !important;
   z-index: 10000;
 }

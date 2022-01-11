@@ -9,20 +9,22 @@
 }
 
 .gradiente {
-    background: rgb(111,26,126);
     background: linear-gradient(90deg, rgba(111,26,126,1) 46%, rgba(45,11,57,1) 85%);
 }
-
+.paddingRight{
+    padding-right: 6rem !important;
+}
 .logo {
     z-index: 1000;
     margin-top: 2rem;
+    margin-left: 5rem !important;
 }
 
 .boton {
-    width: 170px;
-    height: 39px;
+    width: 150px;
+    height: 32px;
     padding: 4px 10px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .navEstilo {

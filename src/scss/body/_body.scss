@@ -2,9 +2,11 @@
     color: white;
     background-color: #2d1540;
     border: #381451 4px solid;
-    padding: 15px 15px 15px 13px;
     border-radius: 50%;
     font-size: 50px;
+    padding: auto;
+    bottom: 3rem;
+    right: 2rem;
     z-index: 10000;
 }
 
@@ -17,6 +19,8 @@
     font-weight: 600;
     width: 155px;
     z-index: 10000;
+    bottom: 1rem;
+    right: 1rem;
 }
 
 .hoverBtnCard {

@@ -11174,12 +11174,11 @@ html, body {
   color: white;
   background-color: #2d1540;
   border: #381451 4px solid;
-  padding: 15px 15px 15px 13px;
   border-radius: 50%;
   font-size: 50px;
-  margin-right: 3.7rem !important;
-  margin-left: 75rem !important;
-  margin-bottom: 3rem !important;
+  padding: auto;
+  bottom: 3rem;
+  right: 2rem;
   z-index: 10000;
 }
 
@@ -11191,9 +11190,9 @@ html, body {
   font-size: 16px;
   font-weight: 600;
   width: 155px;
-  margin-left: 73rem !important;
-  margin-bottom: 1rem !important;
   z-index: 10000;
+  bottom: 1rem;
+  right: 1rem;
 }
 
 .hoverBtnCard {

@@ -2,27 +2,23 @@
     z-index: 10000;
 }
 .fixIcono {
-    color: white;
-    background-color: #2d1540;
-    border: #381451 4px solid;
-    border-radius: 50%;
-    font-size: 50px;
-    padding: 15px;
-    margin-left:73rem; 
-    margin-top: 30rem;
-    margin-bottom: 0.3rem;
+    position: fixed;
+    right: 3rem;
+    bottom: 3.5rem;
+    font-size: 30px;
+    border-radius: 50%;  
 }
 
 .fixParrafo {
-    color: white;
-    background-color: #381451;
-    padding-left: 8px ;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: 600;
-    width: 155px;
-    height: 30px;
-    margin-left: 73rem;
+    position: fixed;
+    right: 1.3rem;
+    bottom: 1.3rem;
+    font-size: 10px;
+    border-radius: 10px; 
+}
+
+.btnCarrusel{
+    border-radius: 3px !important;
 }
 
 .hoverBtnCard {
@@ -77,4 +73,10 @@
 
 .paddingTop{
     padding-top: 1.5rem;
+}
+.hoverAnchors{
+    color: white;
+}
+.hoverAnchors:hover{
+    color: #cfcfcf;
 }
